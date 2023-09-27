@@ -1,0 +1,183 @@
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+}
+html body {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  background: #F0EFF1;
+  color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.secondary-font {
+  font-family: "Outfit", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #776ADA;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.size-10 {
+  font-size: 0.833rem !important;
+}
+
+.size-12 {
+  font-size: 1rem !important;
+}
+
+.size-14 {
+  font-size: 1.167rem !important;
+}
+
+.size-16 {
+  font-size: 1.333rem !important;
+}
+
+.size-18 {
+  font-size: 1.5rem !important;
+}
+
+.size-20 {
+  font-size: 1.667rem !important;
+}
+
+.size-22 {
+  font-size: 1.833rem !important;
+}
+
+.size-24 {
+  font-size: 2rem !important;
+}
+
+.size-26 {
+  font-size: 2.167rem !important;
+}
+
+.size-28 {
+  font-size: 2.333rem !important;
+}
+
+.size-30 {
+  font-size: 2.5rem !important;
+}
+
+.primary-color {
+  color: #776ADA;
+}
+
+.btn-primary {
+  padding: 13px 26px;
+  border-radius: 99px;
+  border: none;
+  font-weight: 600;
+  background-color: #776ADA;
+  color: #FFFFFF;
+}
+.btn-primary:hover, .btn-primary:active {
+  background-color: #776ADA;
+}
+.btn-primary.icon-only {
+  padding: 0;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 14px 24px 0px rgba(28, 28, 28, 0.06);
+}
+
+.site-container {
+  max-width: 1920px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.input-field input {
+  font-weight: 400;
+  color: #000000;
+  padding: 18px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding-top: 22px !important;
+  outline: none;
+  box-shadow: none;
+  height: 56px !important;
+}
+.input-field input:focus {
+  box-shadow: none;
+}
+.input-field input::placeholder {
+  font-family: "Outfit", sans-serif;
+}
+.input-field label {
+  line-height: 28px;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+  transform: scale(0.85) translateY(-0.7rem) translateX(0.15rem);
+}
+
+.login-section-div {
+  background: #F0EFF1;
+}
+
+.login-image-logo {
+  top: 50px;
+}
+
+.login-card-body {
+  max-width: 427px;
+  border-radius: 30px;
+  background: #FFFFFF;
+  box-shadow: 10px 14px 24px 0px rgba(28, 28, 28, 0.06);
+}
+.login-card-body a.forgot-password {
+  color: #000000;
+}
+.login-card-body p {
+  color: #8C8A96;
+}
+
+.doc-header-body {
+  height: 100px;
+}
+
+.avatar-img-button {
+  padding: 5px 14px 5px 5px;
+  border-radius: 30px;
+  background: #FFFFFF;
+  box-shadow: 10px 14px 24px 0px rgba(28, 28, 28, 0.06);
+  gap: 8px;
+  min-width: 175px;
+}
+.avatar-img-button p,
+.avatar-img-button span {
+  color: #000000;
+  letter-spacing: -0.408px;
+}
+.avatar-img-button span {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.white-box-card {
+  height: calc(100vh - 120px);
+  background: #FFFFFF;
+  border-radius: 20px;
+  box-shadow: 10px 14px 24px 0px rgba(28, 28, 28, 0.06);
+}
+
+/*# sourceMappingURL=style.css.map */
